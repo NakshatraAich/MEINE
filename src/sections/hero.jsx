@@ -3,7 +3,7 @@ import Form_field from "../components/form_field";
 
 function copyFunction() { 
   var copyText = document.getElementById("email-address");
-  navigator.clipboard.writeText('meine.electric@gmail.com');
+  navigator.clipboard.writeText('contact@meineelectric.com');
 }
 
 const Hero = () => {
@@ -16,12 +16,12 @@ const Hero = () => {
           </div>
           <Form_field />
           <ul className="flex flex-1 flex-row gap-1 items-center align-center">
-            <li className="opacity-90 hover:opacity-100"><a href="https://www.linkedin.com/company/meineelectric/?originalSubdomain=in"><img src={link} className="w-5 h-auto"/></a></li>
-            <li className="opacity-90 hover:opacity-100"><a href="https://www.instagram.com/meineelectric/"><img src={ig} className="w-5 h-auto"/></a></li>
-            <li className="opacity-90 hover:opacity-100"><a href="https://m.facebook.com/p/MEINE-Electric-100083796047404/?locale=hi_IN"><img src={fb} className="w-5 h-auto"/></a></li>
-            <li className="opacity-90 hover:opacity-100"><a href="https://twitter.com/meineelectric"><img src={x} className="w-5 h-auto"/></a></li>
+            <li className="opacity-90 hover:opacity-100"><a target="_blank" href="https://www.linkedin.com/company/meineelectric/?originalSubdomain=in"><img src={link} className="w-5 h-auto"/></a></li>
+            <li className="opacity-90 hover:opacity-100"><a target="_blank" href="https://www.instagram.com/meineelectric/"><img src={ig} className="w-5 h-auto"/></a></li>
+            <li className="opacity-90 hover:opacity-100"><a target="_blank" href="https://m.facebook.com/p/MEINE-Electric-100083796047404/?locale=hi_IN"><img src={fb} className="w-5 h-auto"/></a></li>
+            <li className="opacity-90 hover:opacity-100"><a target="_blank" href="https://twitter.com/meineelectric"><img src={x} className="w-5 h-auto"/></a></li>
             <li><img src={vert} className="h-6"/></li>
-            <li id='email-address' onClick={copyFunction} className="font-semibold text-xs hover:text-brandColor">meine.electric@gmail.com </li>
+            <li id='email-address' onClick={copyFunction} className="font-semibold text-xs hover:text-brandColor">contact@meineelectric.com</li>
           </ul>
         </div>
       </div>
