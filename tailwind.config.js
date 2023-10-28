@@ -13,7 +13,7 @@ export default {
         brandBlack: '#222222',
       },
       backgroundImage: {
-        'hero-pattern': "url('./assets/bg-big.png')",
+        'hero-pattern': "url('./assets/bg-big.webp')",
       },
     },
   },
