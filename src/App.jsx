@@ -12,7 +12,7 @@ const App = () => (
       <Hero />
     </section> 
     <section className="sm:hidden pt-8">
-      <img src = {bgImage} className="bg-black object h-[40vh]"/> 
+      <img src = {bgImage} className="bg-black object-cover h-[40vh]"/> 
     </section>
     <section className="bottom-0 left-0">
       <Footer />
