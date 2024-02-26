@@ -38,7 +38,7 @@ const Form = () => {
     <form  ref={formRef} onSubmit={handleSubmit} name="google-sheet">
       <div className="input-style flex flex-1 flex-row pb-2">
           <input type="email" id="name"  name="name" placeholder='Email Address' className='border-2 border-brandColor focus:border-2 border-r-[0px] focus:bg-[#f3f5ea] focus:rounding-[0px] focus:outline-none focus:border-[#869734] grow max-w-[22rem] p-3 shadow-lg'/>
-          <button type="submit" id='sub-button' className='bg-brandColor border-2 border-brandColor px-2 shadow text-white text-2xl hover:border-[#869734] hover:bg-[#869734] focus:border-[#485023] focus:bg-[#485023]'><img id='rarr' src= {rarr} width={25}/></button>
+          <button type="submit" id='sub-button' className='bg-brandColor border-2 border-brandColor px-2 shadow text-white text-2xl hover:border-[#869734] hover:bg-[#869734] focus:border-[#485023] focus:bg-[#485023] shrink-0'><img id='rarr' src= {rarr} height={25} width={25}/></button>
       </div>  
     </form>
     
